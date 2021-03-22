@@ -1907,6 +1907,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['csrf', 'authEndpoint'],
   data: function data() {
@@ -37748,11 +37750,23 @@ var render = function() {
           ]
         ),
         _vm._v(" "),
-        _c("audio", { ref: "audio", attrs: { src: "" } })
+        _c("audio", { ref: "audio", attrs: { src: "" } }),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-text", attrs: { id: "emailHelp" } }, [
+          _vm._v(
+            "* Existe un desfase en el calculo del tiempo debido al tiempo de calculo"
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-text", attrs: { id: "emailHelp" } }, [
+          _vm._v(
+            "* El audio que se reproduce es referencial, si esta en pausa el websocket sigue consultando la transmision en vivo"
+          )
+        ])
       ])
     ]),
     _vm._v(" "),
-    _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "row mt-4" }, [
       _c("table", { staticClass: "table" }, [
         _vm._m(0),
         _vm._v(" "),

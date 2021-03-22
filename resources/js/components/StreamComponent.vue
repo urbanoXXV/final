@@ -4,9 +4,11 @@
             <div class="col-md-12">
                 <button type="button" v-on:click="run()" class="btn btn-danger"><i v-if="!play" class="fas fa-play"></i><i v-if="play" class="fas fa-pause"></i> Escuchar en Vivo</button>
                 <audio ref="audio" src=""></audio>
+                <div id="emailHelp" class="form-text">* Existe un desfase en el calculo del tiempo debido al tiempo de calculo</div>
+                <div id="emailHelp" class="form-text">* El audio que se reproduce es referencial, si esta en pausa el websocket sigue consultando la transmision en vivo</div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-4">
             <table class="table">
                 <thead>
                     <tr>
