@@ -39,7 +39,7 @@
                 url : 'https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RPP.mp3?DIST=RPPplayer&TGT=RPPplayer&maxServers=2&ua=RadioTime&ttag=RadioTime',
                 app: {
                     "key" : "ASADAADA123",
-                    "host" : "localhost",
+                    "host" : "final.codigorural.com",
                     "port" : 6001,
                     "path" : null,
                     "id": 12345
