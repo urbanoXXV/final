@@ -2007,8 +2007,8 @@ __webpack_require__.r(__webpack_exports__);
             var time = vm.publis[data.mensaje].time;
             vm.publis[data.mensaje].time = time + 1;
             var hora = Math.floor((time + 1) / 3600);
-            var minuto = Math.floor((time + 1 - time * hora) / 60);
-            var segundo = time + 1 - time * hora - 60 * minuto;
+            var minuto = Math.floor((time + 1 - 3600 * hora) / 60);
+            var segundo = time + 1 - 3600 * hora - 60 * minuto;
 
             if (hora < 10) {
               var hora_text = "0" + hora;
